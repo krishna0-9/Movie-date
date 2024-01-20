@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f3aac8;
+}
+
+#noButton{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+#yesButton{
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 110px;
+}
+
+.ask{
+    font-family: 'Comic Sans MS';
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: #930909;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.gif_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #100219;
+    height: 100px;
+    width: 300px;
+    border: 5px solid #000000;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}

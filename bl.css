@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #980303;
+}
+
+.ask{
+    font-family: 'Comic Sans MS';
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.gifcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}   
+
+#noButton{
+    position: absolute;
+    margin-left: 110px;
+}
+
+#yesButton{
+    position: absolute;
+    margin-right: 130px;
+}
+
+.btn{
+    background-color: #0cbc0c;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.box {
+    background-color: #100219;
+    height: 150px;
+    width: 300px;
+    border: 5px solid #000000;
+    border-radius: 16px;
+    margin: 40px auto; /* Center horizontally with auto margins, and add top and bottom margins */
+
+}
+    
+.blink{
+    background-color: #930909;
+}
+.boxer {
+    background-color: #100219;
+    height: 70px;
+    width: 300px;
+    border: 5px solid #000000;
+    border-radius: 16px;
+    margin: 40px auto; /* Center horizontally with auto margins, and add top and bottom margins */
+
+}

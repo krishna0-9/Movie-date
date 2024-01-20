@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3aac8;
+}
+
+.ask{
+    font-family: 'nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.gifcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box {
+    background-color: #100219;
+    height: 100px;
+    width: 300px;
+    border: 5px solid #000000;
+    border-radius: 16px;
+    margin: 40px auto;
+}
+.ask{
+    font-family: 'Comic Sans MS';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAR</title>
+    <link rel="stylesheet" href="bl.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gifcontainer">
+            <img src="https://media1.tenor.com/m/lIy9f2NtVZMAAAAC/count-down-movie-countdown.gif" alt="TIMER" width="400">
+        </div>
+        <div class="boxer">
+            <div>
+                <h1 class="ask">TIME IS RUNNING OUT... </h1>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn" id="yesButton" onclick="nextPage('index.html')">YES</button>
+            <button class="btn" id="noButton" onclick="nextPage('fourth.html')">NO</button>
+        </div>
+    </div>
+
+    <script>
+        function nextPage(destination) {
+            window.location.href = destination;
+        }
+
+        function toggleBackgroundColor() {
+            const body = document.body;
+            const currentColor = window.getComputedStyle(body).backgroundColor;
+
+            if (currentColor === 'rgb(255, 0, 0)') {
+                body.style.backgroundColor = 'black';
+            } else {
+                body.style.backgroundColor = 'red';
+            }
+        }
+
+        // Change background color every 0.25 seconds
+        setInterval(toggleBackgroundColor, 300);
+    </script>
+</body>
+</html>
